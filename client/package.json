@@ -1,0 +1,30 @@
+{
+  "name": "quotes-app",
+  "version": "1.0.0",
+  "description": "Best place to store your quotes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BornaSepic/Quotes.git"
+  },
+  "author": "Borna Sepic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BornaSepic/Quotes/issues"
+  },
+  "homepage": "https://github.com/BornaSepic/Quotes#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nuxt": "^2.4.3",
+    "vue-autosize": "^1.0.2"
+  }
+}
