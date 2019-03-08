@@ -50,7 +50,7 @@ export default {
   methods: {
     removeQuote: function() {
       axios 
-        .delete('http://localhost:3030/quotes', {params: {
+        .delete('https://quotes.bornasepic.me/api/quotes', {params: {
           idToRemove: this.id
         }})
         .then(res => {
@@ -87,6 +87,7 @@ export default {
   }
   .quote--text {
     margin-bottom: 5px;
+    white-space: pre-line;
   }
   .quote--author {
     text-align: right;

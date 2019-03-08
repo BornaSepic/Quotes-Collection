@@ -42,7 +42,7 @@ export default {
       e.preventDefault();
       if(this.author && this.quote) {
         axios 
-          .post('http://localhost:3030/quotes', {params: {
+          .post('https://quotes.bornasepic.me/api/quotes', {params: {
             author: this.author,
             quote: this.quote
           }})

@@ -50,7 +50,7 @@ export default {
       e.preventDefault();
       if(this.author && this.quote && this.quoteChanged) {
         axios 
-          .put('http://localhost:3030/quotes', {params: {
+          .put('https://quotes.bornasepic.me/api/quotes', {params: {
             author: this.author,
             quote: this.quote,
             id: this.quoteID
@@ -129,4 +129,5 @@ export default {
     text-align: center;
     margin-top: -20px;
   }
+
 </style>
